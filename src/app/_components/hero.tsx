@@ -1,10 +1,14 @@
 const pipeline = ["Problem", "Root cause", "Automate", "Result"];
 
 const skills = [
-  "Financial reporting & statutory compliance",
-  "ERP systems & data architecture",
-  "Data analytics & automation",
-  "Power BI & advanced Excel",
+  "Financial Reporting",
+  "Statutory Compliance",
+  "ERP Systems",
+  "Data & App Architecture",
+  "Data Analytics",
+  "Agentic AI",
+  "Automation",
+  "BI & Excel Expert",
   "Python, React & SQL",
 ];
 
@@ -49,6 +53,9 @@ export function Hero() {
           </li>
         ))}
       </ul>
+      <p className="mt-3 text-sm text-muted">
+        Also known for patience, and for being fun to be around.
+      </p>
       <div className="print-hide mt-8 hidden gap-3 md:flex">
         <CtaLinks />
       </div>
