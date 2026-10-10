@@ -49,7 +49,7 @@ export default function RootLayout({
           name="msapplication-config"
           content="/favicon/browserconfig.xml"
         />
-        <meta name="theme-color" content="#0d1222" />
+        <meta name="theme-color" content="#1b2236" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body className={`${sans.variable} ${mono.variable} font-sans`}>

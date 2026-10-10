@@ -2,28 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-/* "Systems" palette: navy ink, amber highlight, blue labels */
+/* "Systems" palette: navy ink, soft gold highlight, blue labels */
 :root {
-  --bg: 243 245 250;
-  --fg: 18 26 46;
-  --muted: 85 96 122;
+  --bg: 248 249 252;
+  --fg: 20 27 45;
+  --muted: 92 102 125;
   --card: 255 255 255;
-  --line: 217 222 234;
-  --amber: 194 122 0;
-  --blue: 47 79 181;
-  --on-amber: 26 18 0;
+  --line: 226 230 239;
+  --amber: 244 184 74;
+  --blue: 58 86 178;
+  --on-amber: 31 22 4;
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: 13 18 34;
-    --fg: 230 234 245;
-    --muted: 152 162 189;
-    --card: 21 28 49;
-    --line: 38 48 82;
-    --amber: 242 177 60;
-    --blue: 143 168 255;
+    --bg: 27 34 54;
+    --fg: 238 241 248;
+    --muted: 170 179 204;
+    --card: 36 45 71;
+    --line: 54 64 94;
+    --amber: 245 195 91;
+    --blue: 159 180 255;
     color-scheme: dark;
   }
 }

@@ -11,7 +11,9 @@ export function Hero() {
       </p>
       <h1 className="mt-4 text-[2rem] font-extrabold leading-[1.1] tracking-tight [text-wrap:balance] md:text-5xl">
         Financial accountant who fixes{" "}
-        <span className="text-amber">the system</span>, not just the numbers.
+        <span className="bg-[linear-gradient(transparent_62%,rgb(var(--amber)/0.5)_62%)] [box-decoration-break:clone]">
+          the system
+        </span>, not just the numbers.
       </h1>
       <p className="mt-4 max-w-prose text-base leading-relaxed text-muted md:text-lg">
         AASB statutory reporting for a $500m+ scheme, plus a systems
