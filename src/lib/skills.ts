@@ -1,0 +1,53 @@
+export type Skill = { name: string; proof: string };
+export type SkillGroup = { label: string; skills: Skill[] };
+
+export const skillGroups: SkillGroup[] = [
+  {
+    label: "Finance & reporting",
+    skills: [
+      { name: "AASB statutory reporting", proof: "Statutory reporting for a $500m+ scheme" },
+      { name: "Statutory compliance", proof: "Kept a regulated scheme audit-ready" },
+      { name: "Month-end close & reconciliations", proof: "Automated daily bank matching from 5 h to 0 h" },
+      { name: "Audit support", proof: "Cut audit samples from 60 to 2" },
+      { name: "Business cases", proof: "Built the $50K ERP upgrade case" },
+    ],
+  },
+  {
+    label: "ERP & accounting systems",
+    skills: [
+      { name: "Oracle Fusion ERP", proof: "Auto-match set-up and Oracle BI report training" },
+      { name: "NetSuite", proof: "Implemented end to end" },
+      { name: "Xero", proof: "Implemented for a production company" },
+      { name: "MYOB", proof: "Certificate of Completion, MYOB Essentials" },
+      { name: "Unleashed", proof: "Inventory system migration" },
+    ],
+  },
+  {
+    label: "Data & BI",
+    skills: [
+      { name: "Power BI & DAX", proof: "Formal training with Nexacu" },
+      { name: "Excel, expert level", proof: "Formal training with Nexacu" },
+      { name: "Power Query", proof: "Repeatable data clean-up instead of manual fixes" },
+      { name: "SQL", proof: "Extracting and reconciling ERP data" },
+    ],
+  },
+  {
+    label: "Automation & code",
+    skills: [
+      { name: "Python", proof: "Financial modelling and automation scripts" },
+      { name: "React", proof: "Custom reporting tools, and this site" },
+      { name: "Agentic AI", proof: "AI agents that do the menial work" },
+      { name: "Docker", proof: "Self-hosting open-source tools" },
+      { name: "Nocobase & Frappe", proof: "Custom reporting apps on open-source platforms" },
+      { name: "WordPress", proof: "Runs cleanuppartners.com.au" },
+    ],
+  },
+  {
+    label: "Systems & architecture",
+    skills: [
+      { name: "Data & app architecture", proof: "Bridging finance and IT on ERP projects" },
+      { name: "Systems analysis", proof: "Systems Analyst at ITPLUS, 2015 to 2019" },
+      { name: "Process redesign", proof: "Root cause first, then automate" },
+    ],
+  },
+];

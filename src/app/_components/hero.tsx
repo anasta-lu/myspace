@@ -63,6 +63,12 @@ export function Hero() {
       <p className="mt-3 text-sm text-muted">
         Also known for patience, and for being fun to be around.
       </p>
+      <a
+        href="/skills"
+        className="print-hide mt-2 inline-block font-mono text-xs font-semibold text-signal hover:underline"
+      >
+        All skills & tech stack →
+      </a>
       <div className="print-hide mt-8 hidden gap-3 md:flex">
         <CtaLinks />
       </div>
