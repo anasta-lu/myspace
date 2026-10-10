@@ -39,10 +39,10 @@ export function Achievements() {
       className="mx-auto max-w-2xl scroll-mt-6 px-5 pb-12"
     >
       <h2 id="work-title" className="text-xl font-extrabold md:text-2xl">
-        Before → after
+        Achievements
       </h2>
       <p className="mt-1 text-sm text-muted">
-        Results from a $500m+ statutory reporting scheme.
+        Before → after, at a $500m+ statutory reporting scheme.
       </p>
       <ul className="mt-5 grid gap-3 md:grid-cols-2">
         {achievements.map((a) => (
