@@ -76,7 +76,7 @@ export function CtaLinks() {
         href="#contact"
         className="flex-1 rounded-xl border border-line bg-card px-5 py-3.5 text-center font-bold text-ink transition-colors hover:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-signal md:flex-none"
       >
-        Get in touch
+        Hire me
       </a>
     </>
   );
