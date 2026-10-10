@@ -68,13 +68,13 @@ export function CtaLinks() {
     <>
       <a
         href="#work"
-        className="flex-1 rounded-xl bg-amber px-5 py-3.5 text-center font-bold text-on-amber transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-signal md:flex-none"
+        className="flex-1 whitespace-nowrap rounded-xl bg-amber px-3 py-3.5 text-center font-bold md:px-5 text-on-amber transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-signal md:flex-none"
       >
         My achievements
       </a>
       <a
         href="#contact"
-        className="flex-1 rounded-xl border border-line bg-card px-5 py-3.5 text-center font-bold text-ink transition-colors hover:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-signal md:flex-none"
+        className="flex-1 whitespace-nowrap rounded-xl border border-line bg-card px-3 py-3.5 text-center font-bold md:px-5 text-ink transition-colors hover:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-signal md:flex-none"
       >
         Hire me
       </a>
