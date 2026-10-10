@@ -36,8 +36,8 @@ export const skillGroups: SkillGroup[] = [
     label: "ERP implementation",
     skills: [
       { name: "Oracle Fusion ERP", proof: "Auto-match set-up and Oracle BI report training" },
-      { name: "Microsoft Dynamics", proof: "Implementation and configuration" },
-      { name: "NetSuite", proof: "Implemented end to end" },
+      { name: "Microsoft Dynamics 365 Finance", proof: "7 Microsoft Learn badges: GL, AP/AR, fixed assets, budgeting" },
+      { name: "NetSuite", proof: "Led the implementation end to end, with minimal partner help (reference on request)" },
       { name: "Xero", proof: "Implemented for a production company" },
       { name: "MYOB", proof: "Implemented, plus MYOB Essentials certificate" },
       { name: "Unleashed", proof: "Inventory system migration" },
