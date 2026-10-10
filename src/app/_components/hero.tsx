@@ -70,7 +70,7 @@ export function CtaLinks() {
         href="#work"
         className="flex-1 rounded-xl bg-amber px-5 py-3.5 text-center font-bold text-on-amber transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-signal md:flex-none"
       >
-        See my achievements
+        My achievements
       </a>
       <a
         href="#contact"
