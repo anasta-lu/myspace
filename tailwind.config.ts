@@ -14,11 +14,23 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
+        ink: "rgb(var(--fg) / <alpha-value>)",
+        page: "rgb(var(--bg) / <alpha-value>)",
+        muted: "rgb(var(--muted) / <alpha-value>)",
+        card: "rgb(var(--card) / <alpha-value>)",
+        line: "rgb(var(--line) / <alpha-value>)",
+        amber: "rgb(var(--amber) / <alpha-value>)",
+        signal: "rgb(var(--blue) / <alpha-value>)",
+        "on-amber": "rgb(var(--on-amber) / <alpha-value>)",
         "accent-1": "#FAFAFA",
         "accent-2": "#EAEAEA",
         "accent-7": "#333",
         success: "#0070f3",
         cyan: "#79FFE1",
+      },
+      fontFamily: {
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        mono: ["var(--font-mono)", "ui-monospace", "monospace"],
       },
       spacing: {
         28: "7rem",
