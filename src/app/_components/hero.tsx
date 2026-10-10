@@ -19,6 +19,13 @@ export function Hero() {
         <span className="h-2 w-2 rounded-full bg-amber" aria-hidden="true" />
         Ana Lu · Financial & Systems Accountant · Sydney
       </p>
+      <a
+        href="/education"
+        className="print-outline mt-3 inline-flex items-center gap-1.5 rounded-full border border-amber bg-amber/15 px-3 py-1 text-xs font-bold text-ink hover:bg-amber/25"
+      >
+        Provisional Member, CA ANZ
+        <span className="font-mono font-semibold text-muted">· CA due 2027</span>
+      </a>
       <h1 className="mt-4 text-[2rem] font-extrabold leading-[1.1] tracking-tight [text-wrap:balance] md:text-5xl">
         Financial accountant who fixes{" "}
         <span className="bg-[linear-gradient(transparent_62%,rgb(var(--amber)/0.5)_62%)] [box-decoration-break:clone]">
