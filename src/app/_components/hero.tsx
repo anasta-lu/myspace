@@ -63,26 +63,28 @@ export function Hero() {
   );
 }
 
+const ctaBase =
+  "flex-1 whitespace-nowrap rounded-xl px-3 py-3.5 text-center text-base font-bold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-signal md:flex-none md:px-5";
+
 export function CtaLinks() {
   return (
     <>
       <a
-        href="#work"
-        className="flex-1 whitespace-nowrap rounded-xl bg-amber px-3 py-3.5 text-center font-bold md:px-5 text-on-amber transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-signal md:flex-none"
+        href="/#work"
+        className={`${ctaBase} bg-amber text-on-amber transition-opacity hover:opacity-90`}
       >
         My achievements
       </a>
       <a
-        href="#contact"
-        className="flex-1 whitespace-nowrap rounded-xl border border-line bg-card px-3 py-3.5 text-center font-bold md:px-5 text-ink transition-colors hover:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-signal md:flex-none"
+        href="/#contact"
+        className={`${ctaBase} border border-line bg-card text-ink transition-colors hover:border-ink`}
       >
-        Hire me
+        Hire me <span aria-hidden="true">😊</span>
       </a>
     </>
   );
 }
 
-/** Thumb-reach action bar, phones only. */
 export function MobileCtaBar() {
   return (
     <nav
