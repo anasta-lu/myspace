@@ -29,6 +29,13 @@ export const degrees: Qualification[] = [
 
 export const training: Qualification[] = [
   {
+    title: "Dynamics 365 Finance, 7 badges",
+    provider: "Microsoft Learn",
+    dates: "Nov 2025 – Jun 2026",
+    status: "Module assessments passed",
+    note: "Core capabilities, general ledger, AP and AR, expense, fixed assets and budgeting, and finance and operations apps.",
+  },
+  {
     title: "Microsoft Power BI",
     provider: "Nexacu",
     dates: "",
