@@ -88,9 +88,22 @@ export default function SkillsPage() {
               {g.skills.map((s) => (
                 <li key={s.name} className="break-inside-avoid px-4 py-3">
                   <p className="font-bold leading-snug">{s.name}</p>
-                  <p className="mt-0.5 text-sm leading-relaxed text-muted">
-                    {s.proof}
-                  </p>
+                  {Array.isArray(s.proof) ? (
+                    <ul className="mt-1 grid gap-1 text-sm leading-relaxed text-muted">
+                      {s.proof.map((line) => (
+                        <li key={line} className="flex gap-2">
+                          <span className="text-amber" aria-hidden="true">
+                            –
+                          </span>
+                          {line}
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="mt-0.5 text-sm leading-relaxed text-muted">
+                      {s.proof}
+                    </p>
+                  )}
                 </li>
               ))}
             </ul>

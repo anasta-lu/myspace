@@ -1,4 +1,4 @@
-export type Skill = { name: string; proof: string };
+export type Skill = { name: string; proof: string | string[] };
 export type SkillGroup = { label: string; skills: Skill[] };
 
 export const fullSuite = {
@@ -35,7 +35,15 @@ export const skillGroups: SkillGroup[] = [
   {
     label: "ERP implementation",
     skills: [
-      { name: "Oracle Fusion ERP", proof: "Auto-match set-up and Oracle BI report training" },
+      {
+        name: "Oracle Fusion ERP",
+        proof: [
+          "Configured the Collections module myself: delinquency tracking, promise-to-pay and collector notes",
+          "FBDI bulk loads: manual journals, customer uploads and mass updates",
+          "Bank statement auto-match set-up (5 h a day to 0 h)",
+          "Oracle BI report training",
+        ],
+      },
       { name: "Microsoft Dynamics 365 Finance", proof: "7 Microsoft Learn badges: GL, AP/AR, fixed assets, budgeting" },
       { name: "NetSuite", proof: "Led the implementation end to end, with minimal partner help (reference on request)" },
       { name: "Xero", proof: "Implemented for a production company" },
