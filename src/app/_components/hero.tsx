@@ -1,6 +1,12 @@
 const pipeline = ["Problem", "Root cause", "Automate", "Result"];
 
-const proof = ["$500m+ statutory reporting", "NetSuite & Oracle ERP", "CA ANZ 2027"];
+const skills = [
+  "Financial reporting & statutory compliance",
+  "ERP systems & data architecture",
+  "Data analytics & automation",
+  "Power BI & advanced Excel",
+  "Python, React & SQL",
+];
 
 export function Hero() {
   return (
@@ -33,8 +39,8 @@ export function Hero() {
           </li>
         ))}
       </ol>
-      <ul className="mt-4 flex flex-wrap gap-2" aria-label="Highlights">
-        {proof.map((item) => (
+      <ul className="mt-4 flex flex-wrap gap-2" aria-label="Key skills">
+        {skills.map((item) => (
           <li
             key={item}
             className="rounded-full bg-signal/10 px-3 py-1 text-xs font-semibold text-signal"
