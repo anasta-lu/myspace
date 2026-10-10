@@ -32,3 +32,35 @@ body {
   background: rgb(var(--bg));
   color: rgb(var(--fg));
 }
+
+/* Print / Save as PDF: white page, ink-light accents, no on-screen controls */
+@media print {
+  :root {
+    --bg: 255 255 255;
+    --fg: 20 27 45;
+    --muted: 80 88 108;
+    --card: 255 255 255;
+    --line: 200 205 215;
+    --amber: 244 184 74;
+    --blue: 47 70 150;
+    color-scheme: light;
+  }
+  @page {
+    size: A4;
+    margin: 14mm 16mm;
+  }
+  body {
+    print-color-adjust: economy;
+    -webkit-print-color-adjust: economy;
+  }
+  .print-hide {
+    display: none !important;
+  }
+  .print-outline {
+    background: none !important;
+    border: 1px solid rgb(var(--line));
+  }
+  section {
+    break-inside: avoid;
+  }
+}

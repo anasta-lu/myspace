@@ -10,7 +10,7 @@ const skills = [
 
 export function Hero() {
   return (
-    <section className="mx-auto max-w-2xl px-5 pt-12 pb-10 md:pt-24">
+    <section className="mx-auto max-w-2xl px-5 pt-12 pb-10 md:pt-24 print:pt-0">
       <p className="flex items-center gap-2 font-mono text-xs font-semibold text-signal">
         <span className="h-2 w-2 rounded-full bg-amber" aria-hidden="true" />
         Ana Lu · Financial & Systems Accountant · Sydney
@@ -43,13 +43,13 @@ export function Hero() {
         {skills.map((item) => (
           <li
             key={item}
-            className="rounded-full bg-signal/10 px-3 py-1 text-xs font-semibold text-signal"
+            className="print-outline rounded-full bg-signal/10 px-3 py-1 text-xs font-semibold text-signal"
           >
             {item}
           </li>
         ))}
       </ul>
-      <div className="mt-8 hidden gap-3 md:flex">
+      <div className="print-hide mt-8 hidden gap-3 md:flex">
         <CtaLinks />
       </div>
     </section>
@@ -80,7 +80,7 @@ export function MobileCtaBar() {
   return (
     <nav
       aria-label="Quick actions"
-      className="fixed inset-x-0 bottom-0 z-10 flex gap-2 border-t border-line bg-page/95 px-4 pt-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] backdrop-blur md:hidden"
+      className="print-hide fixed inset-x-0 bottom-0 z-10 flex gap-2 border-t border-line bg-page/95 px-4 pt-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] backdrop-blur md:hidden"
     >
       <CtaLinks />
     </nav>
