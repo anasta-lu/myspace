@@ -48,7 +48,7 @@ export const skillGroups: SkillGroup[] = [
       { name: "NetSuite", proof: "Led the implementation end to end, with minimal partner help (reference on request)" },
       { name: "Xero", proof: "Implemented for a production company" },
       { name: "MYOB", proof: "Implemented, plus MYOB Essentials certificate" },
-      { name: "Unleashed", proof: "Inventory system migration" },
+      { name: "Unleashed & DEAR Systems (now Cin7 Core)", proof: "Inventory system migrations" },
     ],
   },
   {
