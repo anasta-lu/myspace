@@ -52,6 +52,13 @@ export default function SkillsPage() {
           </ul>
         </section>
 
+        <p className="mt-4 text-sm text-muted">
+          Formal qualifications, including CA ANZ, are on{" "}
+          <Link href="/education" className="font-semibold text-signal hover:underline">
+            Education &amp; training →
+          </Link>
+        </p>
+
         <nav aria-label="Jump to" className="print-hide mt-6 flex flex-wrap gap-2">
           {skillGroups.map((g) => (
             <a

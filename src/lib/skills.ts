@@ -33,12 +33,13 @@ export const skillGroups: SkillGroup[] = [
     ],
   },
   {
-    label: "ERP & accounting systems",
+    label: "ERP implementation",
     skills: [
       { name: "Oracle Fusion ERP", proof: "Auto-match set-up and Oracle BI report training" },
+      { name: "Microsoft Dynamics", proof: "Implementation and configuration" },
       { name: "NetSuite", proof: "Implemented end to end" },
       { name: "Xero", proof: "Implemented for a production company" },
-      { name: "MYOB", proof: "Certificate of Completion, MYOB Essentials" },
+      { name: "MYOB", proof: "Implemented, plus MYOB Essentials certificate" },
       { name: "Unleashed", proof: "Inventory system migration" },
     ],
   },
@@ -68,6 +69,22 @@ export const skillGroups: SkillGroup[] = [
       { name: "Data & app architecture", proof: "Bridging finance and IT on ERP projects" },
       { name: "Systems analysis", proof: "Systems Analyst at ITPLUS, 2015 to 2019" },
       { name: "Process redesign", proof: "Root cause first, then automate" },
+    ],
+  },
+  {
+    label: "IT infrastructure",
+    skills: [
+      { name: "Networking", proof: "Surveillance and network installs at ITPLUS" },
+      { name: "Server builds & configuration", proof: "Built and configured servers for customers" },
+      { name: "Firmware coding", proof: "Wrote firmware for hardware products" },
+    ],
+  },
+  {
+    label: "Documentation & training",
+    skills: [
+      { name: "Technical manuals", proof: "Written for IT products and systems" },
+      { name: "Policies & procedures", proof: "Finance and IT processes, written down so they last" },
+      { name: "Training in IT & finance", proof: "Teaching teams the systems and the accounting behind them" },
     ],
   },
 ];
