@@ -33,9 +33,10 @@ export function Hero() {
         </span>, not just the numbers.
       </h1>
       <p className="mt-4 max-w-prose text-base leading-relaxed text-muted md:text-lg">
-        AASB statutory reporting for a $500m+ scheme, plus a systems
-        analyst&apos;s eye for automating the menial work away. Looking for a
-        financial accountant role that uses both.
+        <strong className="font-bold text-ink">Full-suite</strong>: 3.5 years
+        owning the whole cycle end to end, from AR and payroll to AASB
+        statutory reporting for a $500m+ scheme. Plus a systems analyst&apos;s
+        eye for automating the menial work away.
       </p>
       <ol
         className="mt-6 flex flex-wrap items-center gap-1.5 font-mono text-[11px] font-semibold text-muted"

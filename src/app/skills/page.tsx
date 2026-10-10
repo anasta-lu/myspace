@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { MobileCtaBar } from "@/app/_components/hero";
-import { skillGroups } from "@/lib/skills";
+import { fullSuite, skillGroups } from "@/lib/skills";
 
 export const metadata: Metadata = {
   title: "Skills & Tech stack | Ana Lu",
@@ -25,6 +25,32 @@ export default function SkillsPage() {
         <p className="mt-3 max-w-prose leading-relaxed text-muted">
           No self-rated bars. Each skill comes with where I&apos;ve used it.
         </p>
+
+        <section
+          aria-labelledby="full-suite-title"
+          className="print-outline mt-8 rounded-2xl border-2 border-amber bg-card p-5 md:p-6"
+        >
+          <p className="flex items-center gap-2 font-mono text-xs font-semibold text-signal">
+            <span className="h-2 w-2 rounded-full bg-amber" aria-hidden="true" />
+            {fullSuite.years}, owned end to end
+          </p>
+          <h2
+            id="full-suite-title"
+            className="mt-3 text-2xl font-extrabold leading-snug [text-wrap:balance]"
+          >
+            Full-suite financial accountant
+          </h2>
+          <ul className="mt-4 grid gap-x-4 gap-y-2 sm:grid-cols-2">
+            {fullSuite.areas.map((area) => (
+              <li key={area} className="flex gap-2 leading-snug">
+                <span className="font-bold text-amber" aria-hidden="true">
+                  ✓
+                </span>
+                {area}
+              </li>
+            ))}
+          </ul>
+        </section>
 
         <nav aria-label="Jump to" className="print-hide mt-6 flex flex-wrap gap-2">
           {skillGroups.map((g) => (

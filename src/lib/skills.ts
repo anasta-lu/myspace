@@ -1,6 +1,26 @@
 export type Skill = { name: string; proof: string };
 export type SkillGroup = { label: string; skills: Skill[] };
 
+export const fullSuite = {
+  years: "3.5 years",
+  areas: [
+    "Accounts receivable",
+    "Month-end close",
+    "Reconciliations",
+    "Financial reporting",
+    "Management reports",
+    "Cashflow management & reporting",
+    "P&L, balance sheet & cash flow statement",
+    "Statutory reporting (AASB / IFRS)",
+    "External audits",
+    "Multi-entity accounting",
+    "Government reporting",
+    "Payroll",
+    "BAS & payroll tax",
+    "Statutory obligations",
+  ],
+};
+
 export const skillGroups: SkillGroup[] = [
   {
     label: "Finance & reporting",
