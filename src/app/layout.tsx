@@ -7,7 +7,7 @@ const sans = Manrope({ subsets: ["latin"], variable: "--font-sans" });
 const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata: Metadata = {
-  title: "Anasta W. | Financial & Systems Accountant",
+  title: "Ana Lu | Financial & Systems Accountant",
   description:
     "Financial accountant who fixes the system, not just the numbers. AASB statutory reporting, ERP implementations and automation.",
 };

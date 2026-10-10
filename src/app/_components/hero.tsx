@@ -7,7 +7,7 @@ export function Hero() {
     <section className="mx-auto max-w-2xl px-5 pt-12 pb-10 md:pt-24">
       <p className="flex items-center gap-2 font-mono text-xs font-semibold text-signal">
         <span className="h-2 w-2 rounded-full bg-amber" aria-hidden="true" />
-        Anasta W. · Financial & Systems Accountant · Sydney
+        Ana Lu · Financial & Systems Accountant · Sydney
       </p>
       <h1 className="mt-4 text-[2rem] font-extrabold leading-[1.1] tracking-tight [text-wrap:balance] md:text-5xl">
         Financial accountant who fixes{" "}
