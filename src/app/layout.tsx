@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { JetBrains_Mono, Manrope } from "next/font/google";
 
 import "./globals.css";
+import { SiteNav } from "./_components/site-nav";
 
 const sans = Manrope({ subsets: ["latin"], variable: "--font-sans" });
 const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" });
@@ -53,6 +54,7 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body className={`${sans.variable} ${mono.variable} font-sans`}>
+        <SiteNav />
         <div className="min-h-screen">{children}</div>
       </body>
     </html>
