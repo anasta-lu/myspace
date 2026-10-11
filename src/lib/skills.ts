@@ -68,7 +68,7 @@ export const skillGroups: SkillGroup[] = [
       { name: "Agentic AI", proof: "AI agents that do the menial work" },
       { name: "Docker", proof: "Self-hosting open-source tools" },
       { name: "Nocobase & Frappe", proof: "Custom reporting apps on open-source platforms" },
-      { name: "WordPress", proof: "Runs cleanuppartners.com.au" },
+      { name: "WordPress, Joomla, Drupal & Payload CMS", proof: "Built cleanuppartners.com.au (WordPress) and this website (Next.js)" },
     ],
   },
   {
