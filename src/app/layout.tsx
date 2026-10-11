@@ -26,6 +26,7 @@ export default function RootLayout({
           sizes="180x180"
           href="/favicon/apple-touch-icon.png"
         />
+        <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
         <link
           rel="icon"
           type="image/png"
@@ -42,10 +43,10 @@ export default function RootLayout({
         <link
           rel="mask-icon"
           href="/favicon/safari-pinned-tab.svg"
-          color="#000000"
+          color="#141b2d"
         />
         <link rel="shortcut icon" href="/favicon/favicon.ico" />
-        <meta name="msapplication-TileColor" content="#000000" />
+        <meta name="msapplication-TileColor" content="#141b2d" />
         <meta
           name="msapplication-config"
           content="/favicon/browserconfig.xml"

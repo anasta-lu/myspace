@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -32,7 +33,18 @@ export function SiteNav() {
         aria-label="Main"
         className="mx-auto flex max-w-5xl items-center justify-between gap-3 px-5 py-3"
       >
-        <Link href="/" className="text-lg font-extrabold tracking-tight">
+        <Link
+          href="/"
+          className="flex items-center gap-2.5 text-lg font-extrabold tracking-tight"
+        >
+          <Image
+            src="/brand/logo-mark.svg"
+            alt=""
+            width={30}
+            height={30}
+            unoptimized
+            priority
+          />
           Ana Lu
         </Link>
 
