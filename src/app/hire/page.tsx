@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 };
 
 const GENERIC_CV = "/files/Ana-Lu-CV.pdf";
+const COOL_CV = "/files/Ana-Lu-Cool-CV.pdf";
 const hasGenericCv = fs.existsSync(
   path.join(process.cwd(), "public", GENERIC_CV),
 );
@@ -69,15 +70,16 @@ export default function HirePage() {
             </p>
             <h2 className="mt-2 text-xl font-extrabold">Cool CV</h2>
             <p className="mt-2 flex-1 leading-relaxed text-muted">
-              Before and after numbers, credentials and skills on one page.
-              Open it, then save it as a PDF.
+              Before and after numbers, work history, achievements in detail,
+              education and skills in one PDF.
             </p>
-            <Link
-              href="/cv"
+            <a
+              href={COOL_CV}
+              download
               className={`${btn} bg-amber text-on-amber hover:brightness-95`}
             >
-              Open Cool CV
-            </Link>
+              Download Cool CV
+            </a>
           </li>
         </ul>
       </div>
