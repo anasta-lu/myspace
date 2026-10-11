@@ -59,6 +59,13 @@ export default function SkillsPage() {
           </Link>
         </p>
 
+        <p className="mt-2 text-sm text-muted">
+          See it in practice in my hobby ERP,{" "}
+          <Link href="/hobby" className="font-semibold text-signal hover:underline">
+            HRT Systems →
+          </Link>
+        </p>
+
         <nav aria-label="Jump to" className="print-hide mt-6 flex flex-wrap gap-2">
           {skillGroups.map((g) => (
             <a
