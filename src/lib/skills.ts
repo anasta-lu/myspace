@@ -27,7 +27,7 @@ export const skillGroups: SkillGroup[] = [
     skills: [
       { name: "AASB statutory reporting", proof: "Statutory reporting for a $500m+ scheme" },
       { name: "Statutory compliance", proof: "Kept a regulated scheme audit-ready" },
-      { name: "Month-end close & reconciliations", proof: "Automated bank matching: 5 h a week to 0 h" },
+      { name: "Month-end close & reconciliations", proof: "Automated bank matching: 5 h a week to about 1 h" },
       { name: "Audit support", proof: "Cut audit samples from 60 to 2" },
       { name: "Business cases", proof: "Built the $50K ERP upgrade case" },
     ],
@@ -40,7 +40,7 @@ export const skillGroups: SkillGroup[] = [
         proof: [
           "Configured the Collections module myself: delinquency tracking, promise-to-pay and collector notes",
           "FBDI bulk loads: manual journals, customer uploads and mass updates",
-          "Bank statement auto-match set-up (5 h a week to 0 h)",
+          "Bank statement auto-match set-up (5 h a week to about 1 h)",
           "Oracle BI report training",
         ],
       },
