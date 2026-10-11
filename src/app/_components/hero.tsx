@@ -102,6 +102,12 @@ export function Hero() {
       >
         All skills & tech stack →
       </a>
+      <a
+        href="/work"
+        className="print-hide mt-2 ml-4 inline-block font-mono text-xs font-semibold text-signal hover:underline"
+      >
+        Work history →
+      </a>
       <div className="print-hide mt-8 hidden gap-3 md:flex">
         <CtaLinks />
       </div>
