@@ -50,7 +50,10 @@ const entries: Entry[] = [
           docs folder
         </a>{" "}
         holds my technical papers, from requirements and chart of accounts
-        design to payroll, controls and reporting.
+        design to payroll, controls and reporting.{" "}
+        <Link href="/hobby" className="font-semibold text-signal hover:underline">
+          Read more →
+        </Link>
       </>
     ),
     photos: [{ src: "/proof/hrt-systems-repo.webp", alt: "The HRT Systems repository on GitHub" }],
@@ -99,9 +102,9 @@ export default function DownTimePage() {
                       />
                     );
                     return e.wide ? (
-                      <a key={p.src} href={REPO} target="_blank" rel="noopener" className="block">
+                      <Link key={p.src} href="/hobby" className="block">
                         {img}
-                      </a>
+                      </Link>
                     ) : (
                       <div key={p.src}>{img}</div>
                     );
