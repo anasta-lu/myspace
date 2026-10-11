@@ -80,14 +80,14 @@ export const achievements: Achievement[] = [
   },
   {
     slug: "oracle-auto-match",
-    before: "5 h",
+    before: "4 h",
     after: "~1 h",
-    measure: "Manual receipt matching a week",
+    measure: "Manual receipt matching a day",
     how: "Found Oracle's auto-match, unused for five years, in my second week.",
-    title: "1,000 clicks a week, cut to about an hour",
+    title: "4 hours of clicking a day, cut to about one",
     where: "Exchange for Change",
     problem: [
-      "Bank recs and receipting ate most of the day. We spent around five hours a week clicking about a thousand times to match receipts to invoices, one at a time. One day I reconciled 200+ transactions by hand.",
+      "Bank recs and receipting ate most of the day. We spent around four hours a day clicking to match receipts to invoices, one at a time. One day I reconciled 200+ transactions by hand.",
     ],
     rootCause: [
       "By the end of week one I'd worked out that we weren't using our tools, we were working around them. An ERP of that calibre was never meant to be run by hand.",
@@ -96,7 +96,7 @@ export const achievements: Achievement[] = [
       "In week two I dug through the (famously unhelpful) Oracle manuals and found the auto-match command that nobody had used in the company's five years.",
     ],
     result: [
-      "Manual matching down from around five hours a week to about one hour, now spent only on the exceptions.",
+      "Manual matching down from around four hours a day to about one hour, now spent only on the exceptions.",
       "It's also the moment I knew I'd stay.",
     ],
   },
