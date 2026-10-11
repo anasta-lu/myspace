@@ -122,7 +122,7 @@ export function CtaLinks() {
         My achievements
       </a>
       <a
-        href="/#contact"
+        href="/hire"
         className={`${ctaBase} border border-line bg-card text-ink transition-colors hover:border-ink`}
       >
         Hire me <span aria-hidden="true">😊</span>

@@ -6,7 +6,7 @@ export function Achievements() {
     <section
       id="work"
       aria-labelledby="work-title"
-      className="mx-auto max-w-2xl scroll-mt-6 px-5 pb-12"
+      className="mx-auto max-w-2xl scroll-mt-6 px-5 pb-12 print:break-inside-auto"
     >
       <h2 id="work-title" className="text-xl font-extrabold md:text-2xl">
         Achievements
@@ -14,7 +14,7 @@ export function Achievements() {
       <p className="mt-1 text-sm text-muted">
         Before → after, at a $500m+ statutory reporting scheme.
       </p>
-      <ul className="mt-5 grid gap-3 md:grid-cols-2">
+      <ul className="mt-5 grid gap-3 md:grid-cols-2 print:block print:columns-2 print:[&>li]:mb-3">
         {achievements.map((a) => (
           <li
             key={a.slug}
