@@ -104,6 +104,14 @@ export default function SkillsPage() {
                       {s.proof}
                     </p>
                   )}
+                  {s.evidence && (
+                    <Link
+                      href={s.evidence}
+                      className="print-hide mt-1.5 inline-block font-mono text-xs font-semibold text-signal hover:underline"
+                    >
+                      See proof →
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>

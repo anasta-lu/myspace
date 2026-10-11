@@ -1,4 +1,4 @@
-export type Skill = { name: string; proof: string | string[] };
+export type Skill = { name: string; proof: string | string[]; evidence?: string };
 export type SkillGroup = { label: string; skills: Skill[] };
 
 export const fullSuite = {
@@ -44,7 +44,7 @@ export const skillGroups: SkillGroup[] = [
           "Oracle BI report training",
         ],
       },
-      { name: "Microsoft Dynamics 365 Finance", proof: "7 Microsoft Learn badges: GL, AP/AR, fixed assets, budgeting" },
+      { name: "Microsoft Dynamics 365 Finance", proof: "7 Microsoft Learn badges: GL, AP/AR, fixed assets, budgeting", evidence: "/proof#dynamics" },
       { name: "NetSuite", proof: "Led the implementation end to end, with minimal partner help (reference on request)" },
       { name: "Xero", proof: "Implemented for a production company" },
       { name: "MYOB", proof: "Implemented, plus MYOB Essentials certificate" },
@@ -80,6 +80,7 @@ export const skillGroups: SkillGroup[] = [
           "Full SDLC docs before code: requirements, architecture, data schema, security, API and UI/UX",
           "Coding standards, development workflow and deployment guides",
         ],
+        evidence: "/proof#dev-setup",
       },
       { name: "Database design (PostgreSQL)", proof: "Multi-tenant ERP schema with dimensional chart of accounts" },
       { name: "Containers & deployment", proof: "Dockerised Next.js builds" },
