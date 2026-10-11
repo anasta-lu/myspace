@@ -63,6 +63,11 @@ body {
   section {
     break-inside: avoid;
   }
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+  }
 }
 
 html {
