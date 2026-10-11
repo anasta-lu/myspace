@@ -68,6 +68,26 @@ export default function HobbyPage() {
           github.com/anasta-lu/hrt-systems
         </p>
 
+        <a
+          href={REPO}
+          target="_blank"
+          rel="noopener"
+          className="print-outline mt-8 block overflow-hidden rounded-2xl border border-line bg-card transition hover:border-ink"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/proof/hrt-systems-repo.webp"
+            alt="The HRT Systems repository on GitHub: README with the tech stack, and a docs folder of architecture and SDLC papers"
+            width={1687}
+            height={854}
+            loading="lazy"
+            className="h-auto w-full"
+          />
+        </a>
+        <p className="mt-2 text-sm text-muted">
+          Tap the screenshot to open the repository on GitHub.
+        </p>
+
         <section aria-labelledby="papers-title" className="mt-12">
           <h2
             id="papers-title"
