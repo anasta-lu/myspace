@@ -81,10 +81,10 @@ export const achievements: Achievement[] = [
   {
     slug: "oracle-auto-match",
     before: "5 h",
-    after: "0 h",
+    after: "~1 h",
     measure: "Manual receipt matching a week",
     how: "Found Oracle's auto-match, unused for five years, in my second week.",
-    title: "1,000 clicks a week, replaced by one command",
+    title: "1,000 clicks a week, cut to about an hour",
     where: "Exchange for Change",
     problem: [
       "Bank recs and receipting ate most of the day. We spent around five hours a week clicking about a thousand times to match receipts to invoices, one at a time. One day I reconciled 200+ transactions by hand.",
@@ -96,7 +96,7 @@ export const achievements: Achievement[] = [
       "In week two I dug through the (famously unhelpful) Oracle manuals and found the auto-match command that nobody had used in the company's five years.",
     ],
     result: [
-      "Around five hours a week of manual matching gone.",
+      "Manual matching down from around five hours a week to about one hour, now spent only on the exceptions.",
       "It's also the moment I knew I'd stay.",
     ],
   },
