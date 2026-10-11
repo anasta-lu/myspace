@@ -72,6 +72,30 @@ export const skillGroups: SkillGroup[] = [
     ],
   },
   {
+    label: "Software engineering",
+    skills: [
+      {
+        name: "Spec-first development",
+        proof: [
+          "Full SDLC docs before code: requirements, architecture, data schema, security, API and UI/UX",
+          "Coding standards, development workflow and deployment guides",
+        ],
+      },
+      { name: "Database design (PostgreSQL)", proof: "Multi-tenant ERP schema with dimensional chart of accounts" },
+      { name: "Containers & deployment", proof: "Dockerised Next.js builds" },
+      { name: "Object-oriented programming", proof: "Java, C#, C++ and Ruby: formal study at AUT, plus hobby projects" },
+    ],
+  },
+  {
+    label: "AI & dev tools",
+    skills: [
+      { name: "Claude Code", proof: "Agentic coding across full projects" },
+      { name: "Antigravity IDE & VS Code", proof: "Day-to-day development environments" },
+      { name: "Google AI Studio", proof: "Prototyping with Gemini models" },
+      { name: "Perplexity", proof: "Sourced research" },
+    ],
+  },
+  {
     label: "Systems & architecture",
     skills: [
       { name: "Data & app architecture", proof: "Bridging finance and IT on ERP projects" },
