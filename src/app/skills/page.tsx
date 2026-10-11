@@ -60,7 +60,7 @@ export default function SkillsPage() {
         </p>
 
         <p className="mt-2 text-sm text-muted">
-          See it in practice in my hobby ERP,{" "}
+          My hobbies include designing an ERP,{" "}
           <Link href="/hobby" className="font-semibold text-signal hover:underline">
             HRT Systems →
           </Link>
