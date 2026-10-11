@@ -66,7 +66,7 @@ export function Hero() {
       </h1>
       <p className="mt-4 max-w-prose text-base leading-relaxed text-muted md:text-lg">
         <strong className="font-bold text-ink">Full-suite</strong>: 3.5 years
-        owning the whole cycle end to end, from AR and payroll to AASB
+        owning the whole cycle end to end, from AR and month-end to AASB
         statutory reporting for a $500m+ scheme. Plus a systems analyst&apos;s
         eye for automating the menial work away.
       </p>
